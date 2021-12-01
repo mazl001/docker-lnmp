@@ -1,0 +1,33 @@
+{
+    "name": "mazl/onion",
+    "description": "Onion PHP Framework",
+    "type": "project",
+    "version": "1.0",
+    
+    "require": {
+        "php": ">=7.0",
+        "symfony/http-foundation": "^3.4",
+        "jenssegers/blade": "^1.4",
+        "predis/predis": "^1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Onion\\": "core/onion/",
+            "app\\": "app/"
+        },
+
+        "files": [
+            "core/Onion/helpers.php",
+            "app/function.php"
+        ]
+    },
+
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "mazl",
+            "email" : "mazl001@foxmail.com"
+        }
+    ]
+}
