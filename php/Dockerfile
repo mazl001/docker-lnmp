@@ -26,7 +26,7 @@ RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-di
     docker-php-ext-install pdo pdo_mysql && \
     docker-php-ext-install mysqli && \
     docker-php-ext-install bcmath && \
-    docker-php-ext-install curl $$ \
+    docker-php-ext-install curl && \
     docker-php-ext-install sockets
 
 #ADD https://pecl.php.net/get/memcached-2.2.0.tgz /usr/src/php/ext/memcached.tgz
