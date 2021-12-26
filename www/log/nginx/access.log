@@ -6,3 +6,8 @@
 172.18.0.1 - - [01/Dec/2021:07:45:45 +0000] "GET /pomelo/public/index.php HTTP/1.1" 404 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 172.18.0.1 - - [01/Dec/2021:07:45:45 +0000] "GET /favicon.ico HTTP/1.1" 404 200 "http://localhost/pomelo/public/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 172.18.0.1 - - [01/Dec/2021:07:45:49 +0000] "GET / HTTP/1.1" 200 396 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+172.18.0.1 - - [26/Dec/2021:03:08:58 +0000] "GET / HTTP/1.1" 200 11 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+172.18.0.1 - - [26/Dec/2021:03:22:49 +0000] "GET /blog/public/ HTTP/1.1" 500 535869 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+172.18.0.1 - - [26/Dec/2021:03:26:51 +0000] "GET /blog/public/ HTTP/1.1" 200 5722 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+172.18.0.1 - - [26/Dec/2021:03:26:51 +0000] "GET /favicon.ico HTTP/1.1" 404 200 "http://localhost/blog/public/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+172.18.0.1 - - [26/Dec/2021:03:26:59 +0000] "GET /blog/public/ HTTP/1.1" 200 5722 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"

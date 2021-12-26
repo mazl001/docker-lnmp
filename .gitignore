@@ -1,0 +1,5 @@
+www/data/mysql/*
+www/data/rabbitmq/*
+www/htdocs/*
+www/log/nginx/*
+www/log/php/*
