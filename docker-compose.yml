@@ -3,12 +3,12 @@ services:
   nginx:
       build: ./nginx
       container_name: nginx
+      #端口 主机：容器
       ports:
         - "80:80"
       links:
         - "php"
-      volumes:
-        - D:/wamp64/bin/docker/engine/www:/www
+
 
   php:
       build: ./php
@@ -20,19 +20,16 @@ services:
         - "memcache"
         - "redis"
         - "rabbitmq"
-      volumes:
-        - D:/wamp64/bin/docker/engine/www:/www
+
 
   mysql:
       build: ./mysql
       container_name: mysql
       ports:
         - "3306:3306"
-      volumes:
-        - D:/wamp64/bin/docker/engine/www/data/mysql:/var/lib/mysql
       environment:
-        #- MYSQL_USER=root
-        - MYSQL_ROOT_PASSWORD=q1w2e3r4
+        - MYSQL_USER=root
+        - MYSQL_ROOT_PASSWORD=root
 
   memcache:
       build: ./memcache
@@ -47,13 +44,16 @@ services:
         - "6379:6379"
 
   phpmyadmin:
-      image: nazarpc/phpmyadmin
+      image: phpmyadmin
       container_name: phpmyadmin
       ports:
-        -  "8080:8080"
+        -  "8080:80"
       links:
         - "mysql"
-      
+        - "php"
+      environment:
+        - PMA_ARBITRARY=1
+
   rabbitmq:
       image: rabbitmq:3-management
       container_name: rabbitmq
@@ -61,8 +61,6 @@ services:
       ports:
         - "5672:5672"
         - "15672:15672"
-      volumes:
-        - D:/wamp64/bin/docker/engine/www/data/rabbitmq/mnesia/rabbitmq:/var/lib/rabbitmq/mnesia/rabbitmq
       environment:
         - HOSTNAME=rabbitmq
         - RABBITMQ_NODENAME=rabbitmq

@@ -1,3 +1,191 @@
 2021/08/14 05:42:19 [error] 9#9: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
 2021/12/01 07:45:45 [error] 8#8: *1 open() "/usr/share/nginx/html/pomelo/public/index.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /pomelo/public/index.php HTTP/1.1", host: "localhost"
 2021/12/01 07:45:45 [error] 8#8: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/pomelo/public/index.php"
+2021/12/26 15:00:07 [error] 11#11: *76 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:9
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(54): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:00:09 [error] 11#11: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:9
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(54): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:00:09 [error] 11#11: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:9
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(54): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:00:10 [error] 11#11: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:9
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(54): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:00:25 [error] 11#11: *84 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /www/htdocs/default/blog/public/test.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:00:26 [error] 11#11: *84 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /www/htdocs/default/blog/public/test.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:00:27 [error] 11#11: *84 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /www/htdocs/default/blog/public/test.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:01:07 [error] 11#11: *91 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:9
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(54): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:05:51 [error] 11#11: *99 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:9
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(54): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:06:23 [error] 11#11: *102 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function docker\mysql_connect() in /www/htdocs/default/blog/public/test.php:11
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(56): docker\mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:06:30 [error] 11#11: *104 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /www/htdocs/default/blog/public/test.php:11
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(56): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:07:30 [error] 11#11: *108 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:15
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(56): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 15" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:08:14 [error] 11#11: *110 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:08:33 [error] 11#11: *113 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 12PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:16
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(57): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 16" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:08:33 [error] 11#11: *113 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 12PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:16
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(57): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 16" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:11:23 [error] 11#11: *118 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:11:25 [error] 11#11: *118 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:11:25 [error] 11#11: *118 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:15 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:16 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:16 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:16 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:17 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:17 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/26 15:16:17 [error] 11#11: *123 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/28 08:15:53 [error] 7#7: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:16:18 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:16:19 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:16:20 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:16:20 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:17:04 [error] 7#7: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:17:15 [error] 7#7: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:17:16 [error] 7#7: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:17:26 [error] 7#7: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:15
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(56): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 15" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:17:36 [error] 7#7: *20 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:19:44 [error] 10#10: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /www/htdocs/default/blog/public/test.php:10
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 10" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:19:52 [error] 10#10: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.9:9000", host: "localhost"
+2021/12/28 08:25:54 [error] 8#8: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/28 08:25:55 [error] 8#8: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /www/htdocs/default/blog/public/test.php on line 10PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /www/htdocs/default/blog/public/test.php:14
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(55): mysql()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 14" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
+2021/12/28 08:30:39 [error] 9#9: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Memcache' not found in /www/htdocs/default/blog/public/test.php:19
+Stack trace:
+#0 /www/htdocs/default/blog/public/test.php(56): memcache()
+#1 {main}
+  thrown in /www/htdocs/default/blog/public/test.php on line 19" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /blog/public/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.7:9000", host: "localhost"
